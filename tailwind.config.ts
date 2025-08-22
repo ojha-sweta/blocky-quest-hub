@@ -61,7 +61,21 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				'minecraft-stone': 'hsl(var(--minecraft-stone))',
+				'minecraft-wood': 'hsl(var(--minecraft-wood))',
+				'minecraft-dirt': 'hsl(var(--minecraft-dirt))',
+				'minecraft-grass': 'hsl(var(--minecraft-grass))',
+				'minecraft-gold': 'hsl(var(--minecraft-gold))',
+				'minecraft-iron': 'hsl(var(--minecraft-iron))',
+				'minecraft-copper': 'hsl(var(--minecraft-copper))',
+				'minecraft-diamond': 'hsl(var(--minecraft-diamond))',
+				'minecraft-emerald': 'hsl(var(--minecraft-emerald))',
+				'minecraft-xp': 'hsl(var(--minecraft-xp))',
+				'minecraft-xp-bg': 'hsl(var(--minecraft-xp-bg))'
+			},
+			fontFamily: {
+				'pixel': ['Press Start 2P', 'monospace']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
